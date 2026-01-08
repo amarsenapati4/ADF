@@ -2,7 +2,7 @@
 	"name": "ds_csv_dynamic",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "lsgen2",
+			"referenceName": "adlsls",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
@@ -41,31 +41,27 @@
 		},
 		"schema": [
 			{
-				"name": "driver_id",
-				"type": "String"
-			},
-			{
-				"name": "first_name",
-				"type": "String"
-			},
-			{
-				"name": "last_name",
-				"type": "String"
-			},
-			{
-				"name": "phone_number",
-				"type": "String"
-			},
-			{
-				"name": "vehicle_id",
-				"type": "String"
-			},
-			{
-				"name": "driver_rating",
+				"name": "location_id",
 				"type": "String"
 			},
 			{
 				"name": "city",
+				"type": "String"
+			},
+			{
+				"name": "state",
+				"type": "String"
+			},
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "latitude",
+				"type": "String"
+			},
+			{
+				"name": "longitude",
 				"type": "String"
 			},
 			{
